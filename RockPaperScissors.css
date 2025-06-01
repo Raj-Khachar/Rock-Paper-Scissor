@@ -1,0 +1,179 @@
+body{
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h1{
+	font-size: 3.5rem;
+	color: hsl(0, 0%, 20% / 1.0);
+}
+.choices{
+	margin-bottom: 30px;
+}
+.choices button{
+	font-size: 7.5rem;
+	min-width: 160px;
+	margin: 0 10px;
+	border-radius: 250px;
+	background-color: hsl(200, 100%, 50% / 1.0);
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+}
+.choices button:hover{
+	background-color: hsl(200, 100%, 70% / 1.0);
+}
+#playerDisplay, #computerDisplay{
+	font-size: 2.5rem;
+}
+#resultDisplay{
+	font-size: 5rem;
+	margin: 30px 0;
+}
+.scoreDisplay{
+	font-size: 2rem;
+}
+.greenText, #playerScoreDisplay{
+	color: hsl(130, 84%, 54% );
+}
+.redText, #computerScoreDisplay{
+	color: hsl(0, 84%, 60% );
+}
+
+
+
+
+
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@700;400&display=swap');
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: #22223b;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 16px #fff7, 0 1px 0 #fff;
+}
+
+.choices {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.choices button {
+  background: rgba(255, 255, 255, 0.25);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.15), 0 1.5px 0 #fff;
+  font-size: 5rem;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+  backdrop-filter: blur(6px);
+  outline: none;
+  position: relative;
+}
+
+.choices button:hover {
+  transform: scale(1.12) rotate(-8deg);
+  background: rgba(255,255,255,0.5);
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.25);
+}
+
+#playerDisplay, #computerDisplay {
+  font-size: 2rem;
+  color: #22223b;
+  background: rgba(255,255,255,0.45);
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  margin: 0.5rem 0;
+  box-shadow: 0 2px 12px #0001;
+  letter-spacing: 1px;
+}
+
+#resultDisplay {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  background: rgba(255,255,255,0.6);
+  box-shadow: 0 4px 24px #0002;
+  text-align: center;
+  min-width: 320px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.greenText {
+  color: #38b000;
+  text-shadow: 0 2px 8px #b7efc5;
+  background: rgba(56,176,0,0.07);
+}
+
+.redText {
+  color: #d90429;
+  text-shadow: 0 2px 8px #fbb1b1;
+  background: rgba(217,4,41,0.07);
+}
+
+.scoreDisplay {
+  font-size: 1.7rem;
+  color: #22223b;
+  background: rgba(255,255,255,0.45);
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  margin: 0.5rem 0;
+  box-shadow: 0 2px 12px #0001;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+#playerScoreDisplay {
+  color: #38b000;
+  font-weight: bold;
+}
+
+#computerScoreDisplay {
+  color: #d90429;
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  .choices {
+    gap: 1rem;
+  }
+  .choices button {
+    font-size: 2.5rem;
+    width: 70px;
+    height: 70px;
+  }
+  #resultDisplay {
+    font-size: 1.5rem;
+    min-width: unset;
+    padding: 0.5rem 1rem;
+  }
+  #playerDisplay, #computerDisplay, .scoreDisplay {
+    font-size: 1.1rem;
+    padding: 0.3rem 0.8rem;
+  }
+}
+*/
